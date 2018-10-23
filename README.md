@@ -1,3 +1,3 @@
 # WDD 918
 
-## [Links](LINKS.md)
+## [Links](links.md)
