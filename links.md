@@ -8,3 +8,8 @@
 * [Brutalist websites](http://brutalistwebsites.com/)
 * [Hover States](https://hoverstat.es/archive)
 * [selfHTML](https://selfhtml.org/)
+* [The Links vs. Buttons Showdown — Marcy Sutton: #ID24 Nov 2017](https://www.youtube.com/watch?v=8XjwDq9zG4I)
+* [About rel=noopener](https://mathiasbynens.github.io/rel-noopener/)
+* [HTML5 doctor](http://html5doctor.com)
+* [float label pattern](http://bradfrost.com/blog/post/float-label-pattern/)
+* [validator](https://validator.w3.org)
