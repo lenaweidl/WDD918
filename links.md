@@ -13,3 +13,5 @@
 * [HTML5 doctor](http://html5doctor.com)
 * [float label pattern](http://bradfrost.com/blog/post/float-label-pattern/)
 * [validator](https://validator.w3.org)
+* [rel=author](https://varvy.com/rel/author.html)
+* [css zen garden](http://www.csszengarden.com/215/)
