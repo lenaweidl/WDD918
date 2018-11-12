@@ -1,0 +1,122 @@
+/*
+###### BASE STYLING #######
+Farben:
+Blau: #1e495
+Links: hotpink
+
+*/
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #F6F6F6;
+  font-family: 'Open Sans', Arial, sans-serif;
+  font-size: 16px;
+  margin: 0;
+  line-height: 1.6;
+}
+
+p {
+  margin-top: 0;
+}
+
+a:link {
+  color: hotpink;
+}
+
+a:visited {
+  color: green;
+}
+
+a:hover {
+  text-decoration: none;
+}
+
+a:active {
+  color: hotpink;
+  color: #;
+}
+
+fieldset {
+  margin: 0;
+  padding: 0;
+  border: 0;
+}
+
+
+
+/*
+###### HEADER #######
+*/
+
+.site-header {
+  background-color: #1e495b;
+  /* Alle Seiten */
+  padding: 20px;
+  /* Oben/unten links/rechts */
+  padding: 15px 30px;
+  /* Oben links/rechts unten*/
+  padding: 15px 30px 0;
+  /* Oben rechts unten links*/
+  padding: 15px 30px 10px 5px;
+
+  padding-top: 50px;
+  padding-right: 50px;
+  padding-bottom: 50px;
+  padding-left: 50px;
+
+  padding: 0 50px 0 0;
+
+  padding: 15px 30px;
+}
+
+.site-logo {
+  color: #FFFFFF;
+  color: rgba(255, 255, 255, 0.5);
+  color: rgb(255, 255, 255);
+  margin: 0;
+  font-style: italic;
+}
+
+/*
+###### CONTENT #######
+*/
+
+.site-content {
+  max-width: 480px;
+  padding: 35px 30px;
+}
+
+/*
+###### LOGIN #######
+*/
+
+.login {
+  border: 1px solid #1e495b;
+
+  border-width: 1px;
+  border-style: solid;
+  border-color: #1e495b;
+
+  border-radius: 4px;
+}
+
+.login-title {
+  width: 100%;
+  background-color: #1e495b;
+  padding: 5px 20px;
+  color: #FFFFFF;
+  font-weight: bold;
+  font-weight: 600;
+}
+
+label {
+  display: block;
+}
+
+input {
+  display: block;
+  width: 100%;
+}

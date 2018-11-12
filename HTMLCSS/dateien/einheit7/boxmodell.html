@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Document</title>
+
+  <style>
+    div {
+      background-color: red;
+      width: 400px;
+      height: 200px;
+      border: 10px solid green;
+      padding: 30px;
+      margin: 10px;
+    }
+
+    /* Abgezogen */
+    .eins {
+      width: 320px;
+      height: 120px;
+    }
+
+    /* calc */
+    .zwei {
+      width: calc(400px - 80px);
+      height: calc(200px - 80px);
+    }
+
+    /* box-sizing */
+    .drei {
+      box-sizing: border-box;
+    }
+
+    * {
+      box-sizing: border-box;
+    }
+  </style>
+</head>
+<body>
+
+  <div class="eins">
+    DAS IST DER INHALT
+  </div>
+
+  <div class="zwei">
+    DAS IST DER INHALT
+  </div>
+
+  <div class="drei">
+    DAS IST DER INHALT
+  </div> 
+  
+</body>
+</html>
