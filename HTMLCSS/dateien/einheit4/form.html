@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Document</title>
+</head>
+<body>
+<br>
+<br>
+<p>
+
+  <h1>Formulare</h1>
+
+  <label for="name">Name</label>
+  <input type="text" id="name" />
+
+  <form action="login.php">
+    <p>
+      <label for="vname">Vorname</label>
+      <input type="text" size="50" placeholder="Vorname" id="vname" />
+    </p>
+
+    <p>
+      PLZ:
+      <input type="text" size="4" maxlength="4" value="1210" />
+    </p>
+
+    <p>
+      Passwort:
+      <input type="password" />
+    </p>
+
+    <p>
+      E-Mail:
+      <input type="email" required/>
+    </p>
+
+    <p>
+      Telefon:
+      <input type="tel" required/>
+    </p>
+
+    <p>
+      URL:
+      <input type="url" required/>
+    </p>
+
+    <p>
+      Kommentar:<br />
+      <textarea rows="5" cols="40" placeholder="Geben Sie Ihr Kommentar ein.."></textarea>
+    </p>
+
+    <p>
+      Farben:
+      <select>
+        <option>Blau</option>
+        <option selected>Rot</option>
+        <option>Grün</option>
+      </select>
+    </p>
+
+    <p>
+      Farben:
+      <select size="3" multiple >
+        <option>Blau</option>
+        <option selected>Rot</option>
+        <option selected>Grün</option>
+      </select>
+    </p>
+
+    <p>
+      <input type="radio" name="rauchen" id="raucherin" /> 
+      <label for="raucherin">RaucherIn</label>
+      
+      <br />
+      <input type="radio" name="rauchen" id="nichtraucherin" checked /> 
+      <label for="nichtraucherin">Nicht RaucherIn</label>
+      
+      <br />
+    </p>
+
+    <p>
+      <input type="checkbox" name="farben" /> Blau<br />
+      <input type="checkbox" name="farben" checked /> Rot<br />
+      <input type="checkbox" name="farben" checked /> Grün
+    </p>
+
+    <fieldset>
+      <legend>Lieferadresse</legend>
+      PLZ:<br />
+      <input type="text" /><br />
+      Adresse:<br />
+      <input type="text" />
+    </fieldset>
+
+    
+      <!-- Alte Variante: <input type="submit" value="Absenden" /> -->
+   
+
+    <button type="submit">Absenden</button>
+    <input type="reset" value="Zurücksetzen" />
+
+
+
+
+
+
+
+
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+
+  </form>
+  <button onclick="alert('bla')">Normaler Button</button>
+  
+</body>
+</html>

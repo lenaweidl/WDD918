@@ -1,0 +1,63 @@
+body {
+  /* background-color: red; */
+}
+
+#heading {
+  background-color: green;
+}
+
+.heading {
+  background-color: red;
+}
+
+h2 {
+  background-color: aqua;
+}
+
+
+li {
+  border: 2px dotted fuchsia;
+}
+
+ol li {
+  background-color: aqua;
+  margin-bottom: 20px;
+}
+
+ol {
+  background-color: red;
+}
+
+strong {
+  font-size: 20px;
+  font-style: italic;
+}
+
+.rahmen strong {
+  background-color: blue;
+}
+
+div strong {
+  background-color: red;
+}
+
+strong {
+  background-color: greenyellow;
+}
+
+.rahmen {
+  border: 5px dashed olive;
+}
+
+p.rahmen {
+  border-color: orange;
+}
+
+p .rahmen {
+  background-color: orange;
+}
+
+h2 {
+  /* Important bitte bitte bitte nicht verwenden! */
+  /* background-color: black !important; */
+}
