@@ -96,3 +96,38 @@ p {
 Numerische Angaben - in cm, mm, in, pt, pc, em, rem, ex, px
 
 Prozentuale Angaben - Bezogen auf die Schriftgröße des Elternelements
+
+
+## line-height
+
+Gibt die Zeilenhöhe an.
+
+```
+p {
+    line-height: 16px;
+}
+```
+
+**normal** - Standardzeilenhöhe
+
+**Multiplikator** - Die Zeilenhöhe ergibt sich auch Schriftgröße mal Multiplikator
+
+**Numerische/Prozentuale Angabe** - Entweder in px/em oder Prozent 
+
+## text-decoration (Schriftverzierung)
+
+text-decoration dient zur Verzierung von Elementen
+
+```
+p {
+  text-decoration: underline;
+}
+```
+
+**underline** - Linien unter dem Text
+
+**overline** - Linien über dem Text
+
+**line-trough** - Text durchgestrichen
+
+**none** - Keine Linien
